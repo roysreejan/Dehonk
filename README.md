@@ -140,7 +140,7 @@ InfluxDB provides an advanced web UI to manage and query data from the database.
 ## References
 
 1. With a voltage divider to protect the module from over-voltaged logic level of the MCU, [Arduino Forum](https://forum.arduino.cc/t/how-to-give-the-right-power-supply-volts-current-for-sim800l-gsm/391672)
-2. InfluxDB: The Time Series Data Platform where developers build IoT, analytics, and cloud applications., [influxdata.com](https://www.influxdata.com/)
+2. InfluxDB: The Time Series Data Platform where developers build IoT, analytics, and cloud applications, [influxdata.com](https://www.influxdata.com/)
 
 ___
 
