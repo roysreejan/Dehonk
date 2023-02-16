@@ -1,5 +1,7 @@
 # Dehonk
 
+This project aims to tackle the issue of car horn noise pollution in urban areas. The project uses an Arduino Nano and a honk module (a simple hardware interrupt directed through debounce circuitry) to detect car honks and upload data to a server via the GPRS network. To ensure accuracy, there added hardware debounce circuitry with .33uF (three 1uF in series) and 104 ceramic capacitors. In this Proof of Concept stage, the focus was on the functionality of the system, and here used InfluxDB's REST API to store and analyze the data on a server. Choosing this approach is to save time on developing backends and front ends. This project is developed using the Arduino Framework in PlatformIO in VS Code. The Arduino Framework provided an easy-to-use platform for programming the Arduino Nano, while PlatformIO allowed to easily manage the project dependencies and libraries.
+
 ## Hardware Configuration
 
 ### Interfacing SIM-800L Module with MCU
@@ -35,11 +37,6 @@ This is the basic working circuit for the voltage regulator. It is recommened to
 Complete circuit diagram of the system is following:
 
 <img src="./docs/assets/schemantic.png" width="700px">
-
-
-### PCB Layout
-
-<img src="./docs/assets/dehonker_pcb.png" width="700px">
 
 ## Loading Sketch
 
